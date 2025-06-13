@@ -91,5 +91,5 @@ New-AzVm `
 	-SubnetName $subnetName `
 	-VirtualNetworkName $virtualNetworkName `
 	-SecurityGroupName $networkSecurityGroupName `
-	-SshKeyName $sshKeyName `
+	-SshKeyValues $sshKeyName `
 	-Zone "2"
